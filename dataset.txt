@@ -1,0 +1,52 @@
+1.https://www.kaggle.com/rikdifos/credit-card-approval-prediction
+数据集：信用卡审批预测
+通过 个人信息 以 status 为判断标准
+439000条数据 18列
+分类
+2.https://www.kaggle.com/sakshigoyal7/credit-card-customers
+信用卡用户是否会流失预测
+通过表中信息，以attrition flag 为判断标准
+10000条 23列
+分类
+3.https://www.kaggle.com/veeralakrishna/predict-demand
+可乐销量预测
+通过表中信息预测可乐销量（quantity）
+6000条左右数据 12列属性
+走势
+4.https://www.kaggle.com/anmolkumar/house-price-prediction-challenge
+房价预测
+通过表中信息预测price
+70000条数据  12列属性
+走势
+5.https://www.kaggle.com/avikasliwal/used-cars-price-prediction?select=train-data.csv
+二手车价格预测
+6000条数据 14列
+走势
+6.https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior
+贷款违约预测
+risk_flag代表是否违约
+分类
+252000数据 13列
+
+7.https://www.kaggle.com/mathchi/churn-for-bank-customers
+客户是否流失预测 与 2类似
+10000行 14列
+
+8.https://www.kaggle.com/tejashvi14/employee-future-prediction
+雇员是否跳槽预测
+分类
+5000条 9列
+
+9.https://www.kaggle.com/jassican/house-price-prediction-challenge-machine-hack?select=Train.csv
+房价预测 类似4
+29500条数据 12列
+
+
+10.https://www.kaggle.com/mastmustu/income?select=train.csv
+工资是否高于5万美元
+分类
+44000条 15列
+
+
+方法：random forest /netural network/regression(假设检验)
++模型评估
