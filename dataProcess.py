@@ -5,7 +5,6 @@ excel_path="D:/111hk/py/pj/"
 excel_name="train.csv"
 process_excel_name="processTrain.csv"
 data = pd.read_csv(excel_path+excel_name)
-data = data.sample(50000)
 
 for i in range(0,len(data)):
    if data.iloc[i,1]=="Male":
@@ -37,5 +36,7 @@ for i in range(0,len(data)):
         data.iloc[i,9]=1
    else:
         data.iloc[i,9]=0 
+   if i%100==0:
+       print(i/100)
 
 data.to_csv(excel_path+process_excel_name)
